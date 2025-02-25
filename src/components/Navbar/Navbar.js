@@ -44,6 +44,9 @@ export default function Navbar() {
                 <a href="/about">about</a>
             </li>
             <li className="navLink">★
+                <a href="/art-diy">art & DIYs</a>
+            </li>
+            <li className="navLink">★
                 <a href="/photography">photography</a>
             </li>
             <li className="navLink">★
