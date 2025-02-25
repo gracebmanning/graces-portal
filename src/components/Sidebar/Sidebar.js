@@ -2,10 +2,7 @@ import './Sidebar.css';
 import { littleGuys } from '../../assets/88x31/88x31index.js';
 
 function lastModified(){
-  var date = new Date(document.lastModified);
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var dateString = months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear();
-  return dateString;
+  return "February 24, 2025";
 }
 
 const icons = littleGuys.map((icon) => 
