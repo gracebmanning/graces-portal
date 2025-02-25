@@ -1,5 +1,5 @@
 import './Home.css';
-import { orangeCow, frogResult, profilePic } from '../../assets/images';
+import { orangeCow, frogResult } from '../../assets/images';
 import { pinkPanther } from '../../assets/gifs/gifsindex';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
@@ -10,19 +10,17 @@ export default function Home() {
     <div className="container">
       <Navbar/>
       <div className="mainContent">
-        <div className="contentBoxLeft" id="introBox">
-          <img id="profilePic" src={profilePic} alt="Grace pointing up in the air"/>
-          <div>
+        <div className="contentBoxCenter">
             <p id="hiImGrace">
               {wrapIndividualLettersNumbered("Hi, I'm Grace!", "mainHeaderLetter")}
             </p>
-            <h3><b>welcome to my *~*~portal~*~* on the internet.</b></h3>
-            Stay awhile! Have fun!
-            <br/>
-          </div>
-          
+            <img id="cow" src={orangeCow} alt="orange cow"/>
+            <p>(I'm not a cow...I'm a person.)</p>
         </div>
         <div className="contentBoxLeft">
+          <h3><b>welcome to my *~*~portal~*~* on the internet.</b></h3>
+          Stay awhile! Have fun!
+          <br/>
           <img id="pinkPanther" src={pinkPanther}
             alt="the Pink Panther moving his hands to his chin and then pointing up with his left hand." />
           <br/>
