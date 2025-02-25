@@ -24,8 +24,9 @@ export default function About() {
                 <br/>
                 <img id="thumbsUpGif" src={thumbsUp} alt="a yellow smiley face emoji wearing sunglasses, next to a thumbs up icon bouncing up and down." />
                 <br/>
-                I create websites! See my professional site / portfolio at <a href="https://grace-manning.com/" target="_blank" rel="noreferrer">grace-manning.com</a>.
-                
+                I create generative artwork for live events, music videos, and more (using TouchDesigner)!<br/>See my portfolio at <a href="https://graceis.online/" target="_blank" rel="noreferrer">graceis.online</a>.
+                <br/><br/>
+                I also have lots of experience in web design & development, so if you like my work, feel free to reach out using the "email" button in the sidebar. Thanks!
             </p>
         </div>
         <div className="twoColumnBox">
