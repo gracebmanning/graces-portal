@@ -11,7 +11,7 @@ import yesterweb from './yesterweb.png';
 import forever from './4ever.gif';
 import eightyeight from './88x31.gif';
 import eyes from './besteyes3.gif';
-import palestine from './palestine.png';
+import win98 from './win98.gif';
 
 export const littleGuys = [
     {
@@ -80,8 +80,8 @@ export const littleGuys = [
         alt: "best viewed with eyes"
     },
     {
-        asset: palestine,
-        source: "http://ilovepalestine.com/campaign/",
-        alt: "FREE PALESTINE"
+        asset: win98,
+        source: "http://www.88x31.nl/index7.html",
+        alt: "Made with Microsoft Windows 98"
     }
 ]
