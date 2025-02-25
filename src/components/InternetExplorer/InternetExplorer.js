@@ -10,23 +10,23 @@ export default function Videos() {
       <div className="mainContent">
         <div id="galaxyBox">
             <div className="planetBox">
-              <img src={sun} alt={"yellow sun with pulsing rays"} />
+              <img className="planetGIF" src={sun} alt={"yellow sun with pulsing rays"} />
               test text
             </div>
             <div className="planetBox">
-              <img src={mercury} alt={"rotating Mercury planet"} />
+              <img className="planetGIF" src={mercury} alt={"rotating Mercury planet"} />
               test text
             </div>
             <div className="planetBox">
-              <img src={venus} alt={"rotating Venus planet"} />
+              <img className="planetGIF" src={venus} alt={"rotating Venus planet"} />
               test text
             </div>
             <div className="planetBox">
-              <img src={earth} alt={"rotating Earth planet"} />
+              <img className="planetGIF" src={earth} alt={"rotating Earth planet"} />
               test text
             </div>
             <div className="planetBox">
-              <img src={mars} alt={"rotating Mars planet"} />
+              <img className="planetGIF" src={mars} alt={"rotating Mars planet"} />
               test text
             </div>
         </div>
