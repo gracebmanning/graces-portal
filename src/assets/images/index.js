@@ -56,6 +56,11 @@ import soundtrack1 from './cds/soundtrack1.png';
 import soundtrack2 from './cds/soundtrack2.png';
 import soundtrack3 from './cds/soundtrack3.png';
 
+//art-diy
+import crochetScarf1 from './art-diy/1-crochet-scarf1.png';
+import tsunoBag from './art-diy/2-tsuno-bag.png';
+import pufferSnoopy from './art-diy/3-puffer-snoopy.jpg';
+
 // IMAGES
 export{
     orangeCow,
@@ -114,5 +119,10 @@ export{
     blankCD,
     soundtrack1,
     soundtrack2,
-    soundtrack3
+    soundtrack3,
+
+    // ART-DIY
+    crochetScarf1,
+    tsunoBag,
+    pufferSnoopy
 };

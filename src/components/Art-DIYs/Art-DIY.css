@@ -1,7 +1,59 @@
-#thumbsUpGif{
-    width: 50px;
+.projectsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-#catonpiano-gif{
-	width: 250px;
+.projectTile{
+    margin: 10px 10px 15px 10px;
+
+    p{
+        margin: 5px 0px 15px 0px;
+    }
+}
+
+.fiberArtsTile{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+    }
+
+    h4{
+        font-size: 18px;
+        margin: 2px;
+        text-align: center;
+    }
+
+    p{
+        margin: 2px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px){
+    .projectTile{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .projectsList{
+        justify-content: center;
+    }
+
+    .fiberArtsTile{
+        width: 45%;
+
+        h4{
+            font-size: 16px;
+        }
+    }
 }
