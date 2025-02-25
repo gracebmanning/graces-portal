@@ -4,6 +4,7 @@ import { pinkPanther } from '../../assets/gifs/gifsindex';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 import { wrapIndividualLettersNumbered } from '../utilityFunctions';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
           <br/>
           <h4>Looking For Answers?</h4>
           <p>
-            Check out my <a href="fortune-teller">Fortune Teller</a> that I created in the midst of a 5-hour caffeine-fueled coding session, during which I didn't blink a single time! If that doesn't make me qualified to read into the future, I don't know what does.
+            Check out my <Link to="/fortune-teller">Fortune Teller</Link> that I created in the midst of a 5-hour caffeine-fueled coding session, during which I didn't blink a single time! If that doesn't make me qualified to read into the future, I don't know what does.
           </p>
         </div>
         <div className="contentBoxCenter">

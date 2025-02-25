@@ -3,6 +3,7 @@ import { cowGif, rainbowStars } from '../../assets/gifs/gifsindex';
 import { CgMenuBoxed } from 'react-icons/cg';
 import { IconContext } from "react-icons";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function MenuIcon(){
   return(
@@ -24,50 +25,50 @@ export default function Navbar() {
             <MenuIcon/>
         </button>
         <div className={isNavExpanded ? "navHeader expanded" : "navHeader"}>
-            <a href="/" style={{textDecoration: 'none', margin: '0px', padding: '0px'}}>
+            <Link to="/" style={{textDecoration: 'none', margin: '0px', padding: '0px'}}>
                 <img src={cowGif} alt="black and white cow turning its head"/>
-            </a>
+            </Link>
             <div className="navHeaderText">
-                <a href="/" style={{textDecoration: 'none'}}>
+                <Link to="/" style={{textDecoration: 'none'}}>
                     <h1 id="navTitle">graces-portal.net</h1>
                     <h2 id="navSubtitle">...where dreams come true!</h2>
-                </a>
+                </Link>
             </div>
         </div>
         <div className={isNavExpanded ? "navStars expanded" : "navStars"}><img src={rainbowStars} alt="line of rainbow stars"/></div>
         <ul className={isNavExpanded ? "navLinks expanded" : "navLinks"}>
             <p><b>personal</b></p>
             <li className="navLink">★
-                <a href="/home">home</a>
+                <Link to="/home">home</Link>
             </li>
             <li className="navLink">★
-                <a href="/about">about</a>
+                <Link to="/about">about</Link>
             </li>
             <li className="navLink">★
-                <a href="/art-diy">art & DIYs</a>
+                <Link to="/art-diy">art & DIYs</Link>
             </li>
             <li className="navLink">★
-                <a href="/photography">photography</a>
+                <Link to="/photography">photography</Link>
             </li>
             <li className="navLink">★
                 <a href="https://blog.graces-portal.net" target="_blank" rel="noreferrer">blog</a>
             </li>
             <li className="navLink">★
-                <a href="/videos">videos</a>
+                <Link to="/videos">videos</Link>
             </li>
             <li className="navLink">★
-                <a href="/favorites">my favorites</a>
+                <Link to="/favorites">my favorites</Link>
             </li>
             <NavSeparator/>
             <p><b>fun stuff</b></p>
             <li className="navLink">★
-                <a href="/music">music</a>
+                <Link to="/music">music</Link>
             </li>
             <li className="navLink">★
-                <a href="/fortune-teller">fortune teller</a>
+                <Link to="/fortune-teller">fortune teller</Link>
             </li>
             <li className="navLink">★
-                <a href="/internet-explorer">internet explorer</a>
+                <Link to="/internet-explorer">internet explorer</Link>
             </li>
             <NavSeparator/>
             <p><b>software projects</b></p>
