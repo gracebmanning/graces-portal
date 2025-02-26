@@ -1,9 +1,6 @@
 import './Sidebar.css';
 import { littleGuys } from '../../assets/88x31/88x31index.js';
-
-function lastModified(){
-  return "February 24, 2025";
-}
+import { Link } from 'react-router-dom';
 
 const icons = littleGuys.map((icon) => 
 <a href={icon.source} target="_blank" rel="noreferrer" key={icon.alt}>
@@ -21,7 +18,7 @@ export default function Sidebar() {
 
       <br/><br/>
       <h3 className="sidebarHeader">contact</h3>
-      <a href="mailto:contact@grace-manning.com">email</a>
+      <Link to="/contact">contact form</Link>
       <br/>
 
       <br/>
@@ -30,7 +27,7 @@ export default function Sidebar() {
 
       <br/>
       <h3 className="sidebarHeader">last updated</h3>
-      <p id="lastModified">{lastModified()}</p>
+      <p>February 26, 2025</p>
 
       <p className="navSeparator">-------------------------------</p>
       <div className="collection">

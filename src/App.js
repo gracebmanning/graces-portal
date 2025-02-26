@@ -3,6 +3,8 @@ import Landing from './components/Landing/Landing';
 import PageDoesNotExist from './components/404/404';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import ThankYou from './components/Contact/ThankYou';
 import ArtDIY from './components/Art-DIYs/Art-DIY';
 import Photography from './components/Photography/Photography';
 import Videos from './components/Videos/Videos';
@@ -17,8 +19,10 @@ export default function App() {
   return (
     <Routes>
         <Route path='/' element={<Landing/>} />
-        <Route path='/home' element={<Home/>} />
+        <Route path='home' element={<Home/>} />
         <Route path='about' element={<About/>} />
+        <Route path='contact' element={<Contact/>} />
+        <Route path='contact/thank-you' element={<ThankYou/>} />
         <Route path='art-diy' element={<ArtDIY/>} />
         <Route path='photography' element={<Photography/>} />
         <Route path='videos' element={<Videos/>} />
