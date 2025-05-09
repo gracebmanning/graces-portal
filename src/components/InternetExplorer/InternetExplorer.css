@@ -20,3 +20,8 @@
     width: 100px;
     height: 100px;
 }
+
+.exploreItemTitle{
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
