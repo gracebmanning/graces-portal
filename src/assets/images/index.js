@@ -60,6 +60,8 @@ import soundtrack3 from './cds/soundtrack3.png';
 import crochetScarf1 from './art-diy/1-crochet-scarf1.png';
 import tsunoBag from './art-diy/2-tsuno-bag.png';
 import pufferSnoopy from './art-diy/3-puffer-snoopy.jpg';
+import blueAndWhiteBag from './art-diy/4-blue-and-white-bag.png';
+import stripedAndScallopedBlanket from './art-diy/5-striped-and-scalloped-blanket.jpg';
 
 // IMAGES
 export{
@@ -124,5 +126,7 @@ export{
     // ART-DIY
     crochetScarf1,
     tsunoBag,
-    pufferSnoopy
+    pufferSnoopy,
+    blueAndWhiteBag,
+    stripedAndScallopedBlanket
 };

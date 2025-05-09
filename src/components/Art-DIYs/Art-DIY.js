@@ -1,9 +1,23 @@
 import './Art-DIY.css';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
-import { pufferSnoopy, tsunoBag, crochetScarf1 } from '../../assets/images';
+import { stripedAndScallopedBlanket, blueAndWhiteBag, pufferSnoopy, tsunoBag, crochetScarf1 } from '../../assets/images';
 
 const fiberArts = [
+  {
+    image: stripedAndScallopedBlanket,
+    alt: '',
+    title: 'striped & scalloped crochet blanket',
+    date: 'March 2025',
+    materials: 'acrylic yarn'
+  },
+  {
+    image: blueAndWhiteBag,
+    alt: '',
+    title: 'blue & white crochet bag',
+    date: 'March 2025',
+    materials: 'acrylic yarn'
+  },
   {
       image: pufferSnoopy,
       alt: '',
