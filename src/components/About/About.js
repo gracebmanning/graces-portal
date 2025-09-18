@@ -1,5 +1,6 @@
 import './About.css';
 import { thumbsUp, catOnPiano } from '../../assets/gifs/gifsindex';
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -26,7 +27,7 @@ export default function About() {
                 <br/>
                 I create generative artwork for live events, music videos, and more (using TouchDesigner)!<br/>See my portfolio at <a href="https://graceis.online/" target="_blank" rel="noreferrer">graceis.online</a>.
                 <br/><br/>
-                I also have lots of experience in web design & development, so if you like my work, feel free to reach out using the "email" button in the sidebar. Thanks!
+                I also have lots of experience in web design & development, so if you like my work, feel free to reach out using the <Link to="/contact">contact form</Link>. Thanks!
             </p>
         </div>
         <div className="twoColumnBox">

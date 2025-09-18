@@ -2,8 +2,10 @@ import './Contact.css';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 export default function Contact() {
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,6 +16,21 @@ export default function Contact() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const myForm = event.target;
+        const myFormData = new FormData(myForm);
+
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(myFormData).toString(),
+        })
+            .then(() => navigate("/contact/thank-you/"))
+            .catch((error) => alert(error));
+    };
 
   return (
     <div className="container">
@@ -27,6 +44,7 @@ export default function Contact() {
         method="POST"
         data-netlify="true"
         action="/contact/thank-you"
+        onSubmit={handleSubmit}
       >
         {/* Hidden input for Netlify to detect the form */}
         <input type="hidden" name="form-name" value="contact" />

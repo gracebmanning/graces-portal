@@ -19,18 +19,18 @@ export default function App() {
   return (
     <Routes>
         <Route path='/' element={<Landing/>} />
-        <Route path='home' element={<Home/>} />
-        <Route path='about' element={<About/>} />
-        <Route path='contact' element={<Contact/>} />
-        <Route path='contact/thank-you' element={<ThankYou/>} />
-        <Route path='art-diy' element={<ArtDIY/>} />
-        <Route path='photography' element={<Photography/>} />
-        <Route path='videos' element={<Videos/>} />
-        <Route path='favorites' element={<Favorites/>} />
-        <Route path='music' element={<Music/>} />
-        <Route path='fortune-teller' element={<FortuneTeller/>} />
-        <Route path='internet-explorer' element={<InternetExplorer/>} />
-        <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/contact/thank-you' element={<ThankYou/>} />
+        <Route path='/art-diy' element={<ArtDIY/>} />
+        <Route path='/photography' element={<Photography/>} />
+        <Route path='/videos' element={<Videos/>} />
+        <Route path='/favorites' element={<Favorites/>} />
+        <Route path='/music' element={<Music/>} />
+        <Route path='/fortune-teller' element={<FortuneTeller/>} />
+        <Route path='/internet-explorer' element={<InternetExplorer/>} />
+        <Route path='/happy22birthdayEmma' element={<Emma22Bday/>} />
         <Route path='*' element={<PageDoesNotExist/>} />
     </Routes>
   );
