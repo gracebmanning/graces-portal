@@ -1,4 +1,3 @@
-import './App.css';
 import Landing from './components/Landing/Landing';
 import PageDoesNotExist from './components/404/404';
 import Home from './components/Home/Home';

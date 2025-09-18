@@ -1,7 +1,6 @@
 // IMAGES
 import orangeCow from './cow.png';
 import frogResult from './result12.jpg';
-import researchPoster from './UROP-Research-Poster.png';
 import orangeTape from './tape.png';
 import rollingHills from './rollinghills.jpg';
 import star from './star.png';
@@ -67,7 +66,6 @@ import stripedAndScallopedBlanket from './art-diy/5-striped-and-scalloped-blanke
 export{
     orangeCow,
     frogResult,
-    researchPoster,
     orangeTape,
     rollingHills,
     star,

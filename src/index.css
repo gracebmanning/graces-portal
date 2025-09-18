@@ -1,165 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@300&display=swap');
-@font-face{
-    font-family: 'Royal Acidbath Open';
-    src: url('./assets/fonts/Royalacid_open.woff') format('woff');
+@import url("https://fonts.googleapis.com/css2?family=Asul&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Linefont:wght@300&display=swap");
+@font-face {
+    font-family: "Royal Acidbath Open";
+    src: url("./assets/fonts/Royalacid_open.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
-@font-face{
+@font-face {
     font-family: "TiltPenX";
     src: url("./assets/fonts/TiltPenX.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
-@font-face{
+@font-face {
     font-family: "Comic Sans MS";
     src: url("./assets/fonts/ComicSans/comic.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
-@font-face{
+@font-face {
     font-family: "Comic Sans MS";
     src: url("./assets/fonts/ComicSans/comicbd.woff") format("woff");
     font-weight: bold;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
-@font-face{
+@font-face {
     font-family: "Comic Sans MS";
     src: url("./assets/fonts/ComicSans/comici.woff") format("woff");
     font-weight: normal;
     font-style: italic;
-	font-display: swap;
+    font-display: swap;
 }
 
 /* width */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 1em;
 }
 
 /* Track */
-::-webkit-scrollbar-track{
-    background: #FFF2D4;
+::-webkit-scrollbar-track {
+    background: #fff2d4;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb{
-    background: #B3B3F2;
+::-webkit-scrollbar-thumb {
+    background: #b3b3f2;
     border-radius: 20px;
-    border: 3px solid #B3B3F2;
+    border: 3px solid #b3b3f2;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover{
-    background: #A0A0E7;
-    border: 3px solid #A0A0E7;
+::-webkit-scrollbar-thumb:hover {
+    background: #a0a0e7;
+    border: 3px solid #a0a0e7;
 }
 
-:root{
-	--main-text-color: #065C5C;
-	--orange-accent: #E29D00;
-	--lavender-background: rgb(211, 211, 242);
+:root {
+    --main-text-color: #065c5c;
+    --orange-accent: #e29d00;
+    --lavender-background: rgb(211, 211, 242);
 }
 
-body{
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-	background: url('./assets/images/rollinghills.jpg');
-	color: var(--main-text-color);
-	margin: 0px;
-	cursor:
-  		url('assets/images/star.png') 0 0,
-  		auto;
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    background: url("./assets/images/rollinghills.jpg");
+    color: var(--main-text-color);
+    margin: 0px;
+    cursor: url("assets/images/star.png") 0 0, auto;
 }
 
-p{
-	margin: 0px;	
+p {
+    margin: 0px;
 }
 
-ul{
-	margin: 0px;
+ul {
+    margin: 0px;
 }
 
-a{
-	color: var(--main-text-color);
-	transition: 0.2s ease-in;
+a {
+    color: var(--main-text-color);
+    transition: 0.2s ease-in;
 }
 
-a:hover{
-	color: var(--orange-accent);
-	transition: 0.2s ease-out;
+a:hover {
+    color: var(--orange-accent);
+    transition: 0.2s ease-out;
+}
+
+.container {
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* margin: top right bottom left */
 .mainContent {
-	width: 80%;
-	min-height: 100vh;
-	margin-top: 20px;
-	margin-bottom: 10px;
+    width: 80%;
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .contentBoxCenter {
-	margin: 0px 10px 8px 10px;
-	padding: 10px 10px 16px 10px;
-	border: solid;
-	background-color: #FFF2D4;
-	text-align: center;
+    margin: 0px 10px 8px 10px;
+    padding: 10px 10px 16px 10px;
+    border: solid;
+    background-color: #fff2d4;
+    text-align: center;
 }
 
 .contentBoxLeft {
-	margin: 0px 10px 8px 10px;
-	padding: 10px 10px 16px 10px;
-	border: solid;
-	background-color: #FFF2D4;
+    margin: 0px 10px 8px 10px;
+    padding: 10px 10px 16px 10px;
+    border: solid;
+    background-color: #fff2d4;
 }
 
-.twoColumnBox{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+.twoColumnBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.nomargins{
-	margin: 0px;
+.nomargins {
+    margin: 0px;
 }
 
-.littleGuys{
-	width: 88px;
-	height: 31px;
+.littleGuys {
+    width: 88px;
+    height: 31px;
     padding: 1px;
-	margin: 0px;
+    margin: 0px;
 }
 
 @media only screen and (max-width: 768px) {
-	body{
-		font-size: 16px;
-	}
-	
-	.mainContent {
-		width: 75%;
-		margin-left: 1px;
-		margin-top: 45px;
-	}
+    body {
+        font-size: 16px;
+    }
 
-	.contentBoxCenter{
-		margin: 0px 2px 8px 2px;
-	}
+    .mainContent {
+        width: 75%;
+        margin-left: 1px;
+        margin-top: 45px;
+    }
 
-	.contentBoxLeft{
-		margin: 0px 2px 8px 2px;
-	}
+    .contentBoxCenter {
+        margin: 0px 2px 8px 2px;
+    }
 
-	.twoColumnBox{
-		grid-template-columns: 1fr;
-	}
+    .contentBoxLeft {
+        margin: 0px 2px 8px 2px;
+    }
 
-	.littleGuys{
-		transform: scale(0.80);
-	}
+    .twoColumnBox {
+        grid-template-columns: 1fr;
+    }
+
+    .littleGuys {
+        transform: scale(0.8);
+    }
 }
