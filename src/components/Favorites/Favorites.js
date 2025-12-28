@@ -1,7 +1,8 @@
 import './Favorites.css';
 import { IsThisIt, RoomOnFire, FirstImpressionsOfEarth, FuturePresentPast, FetchTheBoltCutters, MmFood, Second, JankyStar,
-  PerpetualMotionPeople, TransangelicExodus, LCDSoundsystem, SoundOfSilver, SilentAlarm, Revolver, MNWNW, LadyBird, Parasite,
-  BeauIsAfraid, TheShining, TheTrumanShow, Trainspotting, BlackSwan  } from '../../assets/images';
+    PerpetualMotionPeople, TransangelicExodus, LCDSoundsystem, SoundOfSilver, SilentAlarm, Revolver, MNWNW, HiHowAreYou, Sucker,
+    Brat, LL, Basspunk, Basspunk2, Forever, LadyBird, Parasite, BeauIsAfraid, TheShining, TheTrumanShow, Trainspotting, BlackSwan,
+    TheHoldovers, ISawTheTVGlow, Coraline, AliceInWonderland  } from '../../assets/images';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -93,6 +94,41 @@ export default function Favorites() {
                     <p><b>Men's Needs, Women's Needs, Whatever</b></p>
                     <p>The Cribs</p>
                 </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={HiHowAreYou} alt="A simple black-and-white line drawing of a frog-like creature with long, stalk-like eyes, accompanied by the handwritten text 'Hi, How Are You: The Unfinished Album' and 'Sept 83 Daniel Johnston'" />
+                    <p><b>Hi, How Are You</b></p>
+                    <p>Daniel Johnston</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={Sucker} alt="Charli xcx wearing red lipstick and a leopard-print top against a bright pink background, holding a large heart-shaped red lollipop with the word 'SUCKER' written on it in white" />
+                    <p><b>Sucker</b></p>
+                    <p>Charli xcx</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={Brat} alt="A blurry, lowercase black sans-serif font spelling out the word 'brat' centered on a solid, neon lime green background" />
+                    <p><b>Brat</b></p>
+                    <p>Charli xcx</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={LL} alt="A black pause symbol, consisting of two vertical bars inside a thin circle, is centered on a light, slightly textured background with a few dark smudges in the upper-right corner" />
+                    <p><b>LL</b></p>
+                    <p>The Hellp</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={Basspunk} alt="A woman wearing a white polo shirt and a grey patterned cardigan makes two distinct hand gestures ('b' and 'p') in front of her chest while standing in a grassy outdoor area" />
+                    <p><b>Basspunk</b></p>
+                    <p>Bassvictim</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={Basspunk2} alt="A man wearing a white hooded sweatshirt with a mountain logo makes two hand gestures ('b' and '2'/peace sign) while standing in a grassy outdoor area" />
+                    <p><b>Basspunk 2</b></p>
+                    <p>Bassvictim</p>
+                </div>
+                <div className="albumTile">
+                    <img className="albumCover" src={Forever} alt="A grey knit fabric features a repeating pattern with rows of red geometric shapes resembling leaves, rows of blue infinity symbols, and subtle white snowflake motifs" />
+                    <p><b>Forever</b></p>
+                    <p>Bassvictim</p>
+                </div>
             </div>
         </div>
         <div className="contentBoxLeft">
@@ -100,9 +136,9 @@ export default function Favorites() {
             <br/>
             <div className="favoritesContainer">
                 <div className="movieTile">
-                    <img className="moviePoster" src={LadyBird} alt="side profile portrait of main character standing in a chapel." />
-                    <p><b>Lady Bird</b></p>
-                    <p>2017</p>
+                    <img className="moviePoster" src={BeauIsAfraid} alt="layered portraits of the main character, Beau, at four different ages, wearing the same gray pajama shirt." />
+                    <p><b>Beau Is Afraid</b></p>
+                    <p>2023</p>
                 </div>
                 <div className="movieTile">
                     <img className="moviePoster" src={Parasite} alt="family members standing or sitting in the backyard in front of their home. Their eyes are crossed out with vertical black lines. A pair of legs laying on the ground sticks out from the left side." />
@@ -110,9 +146,9 @@ export default function Favorites() {
                     <p>2019</p>
                 </div>
                 <div className="movieTile">
-                    <img className="moviePoster" src={BeauIsAfraid} alt="layered portraits of the main character, Beau, at four different ages, wearing the same gray pajama shirt." />
-                    <p><b>Beau Is Afraid</b></p>
-                    <p>2023</p>
+                    <img className="moviePoster" src={LadyBird} alt="side profile portrait of main character standing in a chapel." />
+                    <p><b>Lady Bird</b></p>
+                    <p>2017</p>
                 </div>
                 <div className="movieTile">
                     <img className="moviePoster" src={TheShining} alt="yellow background with 'The Shining' in black block letters, with a haunting face transposed in the letter T." />
@@ -133,6 +169,26 @@ export default function Favorites() {
                     <img className="moviePoster" src={BlackSwan} alt="portrait of main character against a white background. She wears white face paint, dark red lipstick, black eyeliner mimicking large bird wings, and a silver crown. Her eyes are an unnatural red." />
                     <p><b>Black Swan</b></p>
                     <p>2010</p>
+                </div>
+                <div className="movieTile">
+                    <img className="moviePoster" src={TheHoldovers} alt="Movie poster for 'The Holdovers', featuring a grumpy teacher, a troubled student, and the school cook standing inside a broken oversized Christmas bulb." />
+                    <p><b>The Holdovers</b></p>
+                    <p>2023</p>
+                </div>
+                <div className="movieTile">
+                    <img className="moviePoster" src={ISawTheTVGlow} alt="the main character, Owen, sits on the couch facing a TV glowing brightly, emitting a pink light. The rest of the room is totally dark and black." />
+                    <p><b>I Saw The TV Glow</b></p>
+                    <p>2024</p>
+                </div>
+                <div className="movieTile">
+                    <img className="moviePoster" src={Coraline} alt="A movie poster for 'Coraline' features a young girl and a black cat peering into a glowing doorway from a dark room where the words 'Be careful what you wish for' are written on the wall" />
+                    <p><b>Coraline</b></p>
+                    <p>2009</p>
+                </div>
+                <div className="movieTile">
+                    <img className="moviePoster" src={AliceInWonderland} alt="A vibrant movie poster for 'Walt Disney's Alice in Wonderland' features Alice sitting at a chaotic tea party with the Mad Hatter, March Hare, and various colorful characters from the film, with large red and pink title text below" />
+                    <p><b>Alice in Wonderland</b></p>
+                    <p>1951</p>
                 </div>
             </div>
         </div>

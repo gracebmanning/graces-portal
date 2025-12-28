@@ -22,6 +22,14 @@ import SoundOfSilver from './albums/soundofsilver.png';
 import SilentAlarm from './albums/silentalarm.jpg';
 import Revolver from './albums/revolver.jpg';
 import MNWNW from './albums/mensneedswomensneedswhatever.jpg';
+import HiHowAreYou from './albums/hihowareyou.jpg';
+import Sucker from './albums/sucker.png';
+import Brat from './albums/brat.png';
+import LL from './albums/LL.jpg';
+import Basspunk from './albums/basspunk.jpg';
+import Basspunk2 from './albums/basspunk2.jpg';
+import Forever from './albums/forever.jpg';
+
 // movies
 import LadyBird from './movies/ladybird.jpg';
 import Parasite from './movies/parasite.jpg';
@@ -30,6 +38,10 @@ import TheShining from './movies/theshining.jpg';
 import TheTrumanShow from './movies/trumanshow.jpg';
 import Trainspotting from './movies/trainspotting.jpg';
 import BlackSwan from './movies/blackswan.jpg';
+import TheHoldovers from './movies/theholdovers.jpg';
+import ISawTheTVGlow from './movies/isawthetvglow.jpg';
+import Coraline from './movies/coraline.jpg';
+import AliceInWonderland from './movies/aliceinwonderland.jpg';
 
 // photography
 import aldrichHall from './photography/Aldrich Hall at Sunset.jpg';
@@ -87,6 +99,13 @@ export{
     SilentAlarm,
     Revolver,
     MNWNW,
+    HiHowAreYou,
+    Sucker,
+    Brat,
+    LL,
+    Basspunk,
+    Basspunk2,
+    Forever,
 
     // MOVIES
     LadyBird,
@@ -96,6 +115,10 @@ export{
     TheTrumanShow,
     Trainspotting,
     BlackSwan,
+    TheHoldovers,
+    ISawTheTVGlow,
+    Coraline,
+    AliceInWonderland,
 
     // PHOTOGRAPHY
     aldrichHall,
