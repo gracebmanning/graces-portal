@@ -27,7 +27,7 @@ export default function Sidebar() {
 
       <br/>
       <h3 className="sidebarHeader">last updated</h3>
-      <p>September 17, 2025</p>
+      <p>December 27, 2025</p>
 
       <p className="navSeparator">-------------------------------</p>
       <div className="collection">
