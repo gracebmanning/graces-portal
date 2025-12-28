@@ -1,27 +1,35 @@
-#galaxyBox{
-    background: url('../../assets/gifs/galaxy.gif');
+#galaxyBox {
+    background: url("../../assets/gifs/galaxy.gif");
     margin: 0px 10px 8px 10px;
-	padding: 10px 10px 10px 10px;
-	
+    padding: 10px 10px 10px 10px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.planetBox{
+.planetBox {
     margin: 30px 30px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     color: white;
 }
 
-.planetGIF{
+.planetBoxInternal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.planetGIF {
     width: 100px;
     height: 100px;
 }
 
-.exploreItemTitle{
+.exploreItemTitle {
     text-decoration: underline;
     margin-bottom: 5px;
 }

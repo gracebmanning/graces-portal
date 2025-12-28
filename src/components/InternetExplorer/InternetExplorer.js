@@ -11,7 +11,7 @@ export default function Videos() {
         <div id="galaxyBox">
             <div className="planetBox">
               <img className="planetGIF" src={sun} alt={"yellow sun with pulsing rays"} />
-              <div>
+              <div className="planetBoxInternal">
                 <h3 className="exploreItemTitle">explore the Internet Archive</h3>
                 <p>
                   The <a href='https://archive.org/' target='_blank' rel='noreferrer'>Internet Archive</a> is a digital library preserving the history of the World Wide Web. 
@@ -22,7 +22,7 @@ export default function Videos() {
             </div>
             <div className="planetBox">
               <img className="planetGIF" src={mercury} alt={"rotating Mercury planet"} />
-              <div>
+              <div className="planetBoxInternal">
                 <h3 className="exploreItemTitle">if you're obsessed with old Microsoft Windows lore...</h3>
                 <p>
                 and would like to revert your OS to Windows 98, 2000, XP, Vista, or one of the other nostalgia-inducing versions, and need extremely niche tech support regarding said OS: you may enjoy the <a href='https://winclassic.net/' target='_blank' rel='noreferrer'>WinClassic</a> forum!
